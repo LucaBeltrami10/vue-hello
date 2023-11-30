@@ -3,7 +3,7 @@ const {createApp} = Vue;
 createApp({
     data() {
         return {
-            titolo : "Nomi di persone",
+            titolo : "Titolo",
             nome : "Nome",
             cognome : "Cognome",
             linkImmagine : ""
