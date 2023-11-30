@@ -21,6 +21,11 @@
                 <input type="text" v-model="cognome">
             </form>
         </main>
+        <footer>
+            <label for="nome">inserisci link a immagine</label>
+            <input type="text" v-model="linkImmagine">  <br>
+            <img :src="linkImmagine" alt="">
+        </footer>
     </div>
 
     <script src="./js/script.js"></script>

@@ -5,7 +5,8 @@ createApp({
         return {
             titolo : "Nomi di persone",
             nome : "Nome",
-            cognome : "Cognome"
+            cognome : "Cognome",
+            linkImmagine : ""
         }
     },
 
